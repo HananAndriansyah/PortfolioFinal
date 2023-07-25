@@ -16,7 +16,10 @@ const Projects = () => {
         frontend developer.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItems img={fabiraImg} title="Fabira app" />
+        <a href="https://final-project-kelompok-8.vercel.app/">
+          <ProjectItems img={fabiraImg} title="Fabira app" />
+        </a>
+
         <ProjectItems img={hoobankImg} title="Hoobank app" />
         <ProjectItems img={westonImg} title="Weston app" />
         <ProjectItems img={portfolioImg} title="Portfolio app" />

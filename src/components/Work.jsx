@@ -7,28 +7,28 @@ const data = [
     title: "Harisenin Bootcamp",
     duration: "4 Month",
     details:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi iure itaque facere tempora aliquid dolorem, quibusdam dignissimos magnam sequi ab quo hic non quaerat. Ad autem voluptatibus quis id sit?",
+      "Performed UI/UX design by referring to renowned websites. Developed the Navbar, Hero section, and ensured responsive design for mobile websites. Implemented version control with GitHub. Created the final project using the React.js framework and utilized the Tailwind CSS framework.",
   },
   {
     year: 2023,
-    title: "Fabira Movies",
-    duration: "4 Month",
-    details:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi iure itaque facere tempora aliquid dolorem, quibusdam dignissimos magnam sequi ab quo hic non quaerat. Ad autem voluptatibus quis id sit?",
-  },
-  {
-    year: 2023,
-    title: "Hoobanks",
+    title: "Udemy Online Course",
     duration: "2 Month",
     details:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi iure itaque facere tempora aliquid dolorem, quibusdam dignissimos magnam sequi ab quo hic non quaerat. Ad autem voluptatibus quis id sit?",
+      "I have learned the fundamental concepts of HTML, CSS, and Javascript. I have also studied Version Control using Git and created repositories on GitHub.Moreover, I have delved into the Frontend framework React.js and completed an individual project, creating a one-page landing website. Additionally, I have explored Backend development with Node.js and worked with MySQL databases.",
   },
   {
-    year: 2023,
-    title: "Learning NodeJs",
-    duration: "3 Month",
+    year: 2022,
+    title: "DICODING.com",
+    duration: "2 Month",
     details:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi iure itaque facere tempora aliquid dolorem, quibusdam dignissimos magnam sequi ab quo hic non quaerat. Ad autem voluptatibus quis id sit?",
+      "Studied the fundamental concepts of JavaScript and learned about Node.js.",
+  },
+  {
+    year: 2022,
+    title: "Medical Care Planning",
+    duration: "2 Years",
+    details:
+      "Performed physical condition checks for patients. Conducted medication administration and calculated the required caloric intake for each patient.Engaged in patient rehabilitation as recommended by the doctor.Compiled and generated reports on patient activities and progress.",
   },
 ];
 
