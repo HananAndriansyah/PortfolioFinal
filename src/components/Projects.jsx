@@ -11,18 +11,20 @@ const Projects = () => {
       <h1 className=" text-4xl font-bold text-center text-[#001b5e]">
         Projects
       </h1>
-      <p className="text-center py-8">
+      <p className="text-center py-8 text-base font-normal text-stone-500">
         This recent project represents the culmination of my journey as a
         frontend developer.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <a href="https://final-project-kelompok-8.vercel.app/">
-          <ProjectItems img={fabiraImg} title="Fabira app" />
-        </a>
+        <ProjectItems
+          img={fabiraImg}
+          title="Fabira app"
+          link={`https://final-project-kelompok-8.vercel.app/`}
+        />
 
-        <ProjectItems img={hoobankImg} title="Hoobank app" />
-        <ProjectItems img={westonImg} title="Weston app" />
-        <ProjectItems img={portfolioImg} title="Portfolio app" />
+        <ProjectItems img={hoobankImg} title="Hoobank app" link={``} />
+        <ProjectItems img={westonImg} title="Weston app" link={``} />
+        <ProjectItems img={portfolioImg} title="Portfolio app" link={``} />
       </div>
     </div>
   );

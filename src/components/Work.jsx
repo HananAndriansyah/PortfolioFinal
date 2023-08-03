@@ -18,10 +18,10 @@ const data = [
   },
   {
     year: 2022,
-    title: "DICODING.com",
+    title: "Dicoding.com",
     duration: "2 Month",
     details:
-      "Studied the fundamental concepts of JavaScript and learned about Node.js.",
+      "Studied the fundamental concepts of JavaScript, completed JavaScript exercises, learned how to install Node.js, and how to use it effectively.",
   },
   {
     year: 2022,

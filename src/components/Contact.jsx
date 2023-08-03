@@ -25,7 +25,7 @@ const Contact = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col py-2">
+        <div className="flex flex-col">
           <label className="uppercase text-sm py-4">Email</label>
           <input
             className="border-2 rounded-lg p-3 flex border-gray-300 "
@@ -33,7 +33,7 @@ const Contact = () => {
             name="email"
           />
         </div>
-        <div className="flex flex-col py-2">
+        <div className="flex flex-col">
           <label className="uppercase text-sm py-4">Subject</label>
           <input
             className="border-2 rounded-lg p-3 flex border-gray-300"
@@ -41,11 +41,11 @@ const Contact = () => {
             name="subject"
           />
         </div>
-        <div className="flex flex-col py-2">
+        <div className="flex flex-col ">
           <label className="uppercase text-sm py-4">Message</label>
           <textarea
             className="border-2 rounded-lg p-3 flex border-gray-300"
-            rows={10}
+            rows={8}
             name="name"
           ></textarea>
         </div>
