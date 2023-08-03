@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter ,} from "react-icons/fa";
-import {AiFillGithub} from "react-icons/ai"
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
 const Main = () => {
   return (
     <div id="main">
@@ -35,8 +35,12 @@ const Main = () => {
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
             {/* <FaTwitter className="cursor-pointer" size={20} /> */}
             {/* <FaFacebook className="cursor-pointer" size={20} /> */}
-            <AiFillGithub className="cursor-pointer" size={20}/>
-            <FaInstagram className="cursor-pointer" size={20} />
+            <a href="https://github.com/HananAndriansyah">
+              <AiFillGithub className="cursor-pointer" size={20} />
+            </a>
+            <a href="">
+              <FaInstagram className="cursor-pointer" size={20} />
+            </a>
             <a href="https://www.linkedin.com/in/hananandriansyah/">
               <FaLinkedin className="cursor-pointer" size={20} />{" "}
             </a>

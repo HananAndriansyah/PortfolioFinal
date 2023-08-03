@@ -22,7 +22,11 @@ const Projects = () => {
           link={`https://final-project-kelompok-8.vercel.app/`}
         />
 
-        <ProjectItems img={hoobankImg} title="Hoobank app" link={``} />
+        <ProjectItems
+          img={hoobankImg}
+          title="Hoobank app"
+          link={`https://hoobank-app-chi.vercel.app/`}
+        />
         <ProjectItems img={westonImg} title="Weston app" link={``} />
         <ProjectItems img={portfolioImg} title="Portfolio app" link={``} />
       </div>
